@@ -1,0 +1,75 @@
+.meus-filmes{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.meus-filmes h1{
+    margin-bottom: 14px;
+}
+
+
+.meus-filmes span{
+   font-size: 18px; 
+   text-decoration: wavy;
+}
+.meus-filmes ul {
+    max-width: 100%;
+    padding: 0;
+}
+
+.meus-filmes ul li {
+    list-style: none;
+    display: flex;
+    flex-direction: column; /* Altera o layout para uma coluna em dispositivos móveis */
+    align-items: center;
+    margin-bottom: 60px;
+    margin-left: 20px; /* Adiciona um espaço à esquerda de cada item */
+    margin-right: 20px; /* Adiciona um espaço à direita de cada item */
+}
+
+.meus-filmes div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px; /* Adiciona um espaço entre a imagem e os botões */
+}
+
+.meus-filmes div a {
+    text-decoration: none;
+    color: #116feb;
+    margin: 0 10px; /* Aumenta o espaço entre os botões */
+}
+
+.fav-filmes {
+    width: 100%; /* Altera a largura das imagens para ocupar toda a largura da tela */
+    max-height: 340px;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+
+.aling {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px; /* Ajuste conforme necessário */
+}
+
+.aling span {
+    font-size: 25px;
+    margin-bottom: 10px; /* Ajuste conforme necessário */
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .meus-filmes ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
