@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-Link to project:lok-flix.netlify.app
+Link to project:https://lok-flix.netlify.app
 
 
 
